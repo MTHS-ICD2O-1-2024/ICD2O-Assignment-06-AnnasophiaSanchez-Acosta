@@ -7,9 +7,10 @@
 'use strict'
 
 /**
- * This function gets a random fun fact from the API
+ * This function gets a random cat fact from the API
  * The 'async' keyword is used because it will take time from the internet to get data
  */
+/* eslint-disable no-unused-vars */
 async function getCatFact () {
   try {
     const response = await fetch(
