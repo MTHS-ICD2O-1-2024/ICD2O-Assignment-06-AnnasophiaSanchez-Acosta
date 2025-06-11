@@ -10,7 +10,7 @@
  * This function gets a random fun fact from the API
  * The 'async' keyword is used because it will take time from the internet to get data
  */
-async function getCatImage() {
+async function getCatFact () {
   try {
     const response = await fetch(
       'https://catfact.ninja/fact'

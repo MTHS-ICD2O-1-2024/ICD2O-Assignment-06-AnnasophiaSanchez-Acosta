@@ -48,30 +48,25 @@
           <span class="mdl-layout-title"> </span>
         </div>
       </header>
-        <main class="mdl-layout__content">
-          <div class="right-image">
-            <img
-              id="cat-image"
-              src="./images/cat.png"
-              alt="Cat Image"
-            />
-          </div>
-          <br />
-          <!-- Simple Button to Get Fun Fact -->
-          <form action="#" onsubmit="return false;">
-            <!-- Accent-colored raised button with ripple -->
-            <button
-              class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-              onclick="getCatImage()"
-            >
-              Cat Fact
-            </button>
-          </form>
-          <br />
-          <div class="result">
-            <div id="show-cat"></div>
-          </div>
-        </main>
+      <main class="mdl-layout__content">
+        <div class="right-image">
+          <img id="cat-image" src="./images/cat.png" alt="Cat Image" />
+        </div>
+        <br />
+        <!-- Simple Button to Get Fun Fact -->
+        <form action="#" onsubmit="return false;">
+          <!-- Accent-colored raised button with ripple -->
+          <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="getCatFact()"
+          >
+            Cat Fact
+          </button>
+        </form>
+        <br />
+        <div class="result">
+          <div id="show-cat"></div>
+        </div>
       </main>
     </div>
   </body>
